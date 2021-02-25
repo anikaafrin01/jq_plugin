@@ -1,0 +1,160 @@
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* slick slider start*/
+h2{
+	font-family: 'Open Sans', sans-serif;
+
+    color:black;
+	font-size: 30px;
+     font-weight: 300;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+/* istope start */
+.gallery-filter{
+	
+	text-align: center;
+}
+.gallery-filter ul li{
+	list-style: none;
+	display: inline-block;
+	border:1px solid #ddd ;
+	padding: 12px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.gallery-filter ul li.active{
+	background-color: lavender;
+	color:black;
+	transition:.3s ;
+}
+.gallery{
+	width: 100%;
+}
+.gallery img{
+	
+	margin: 30px 0px;
+	
+}
+/* istope end*/
+/* parallax */
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+/* parallax */
+
+/*image zoom in hover start*/
+.image{
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+figure{
+overflow: hidden;
+margin: 0 10px;
+}
+
+h3{
+	font-family: 'Poppins', sans-serif;
+	color:black;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 15px;
+}
+.image img{
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+
+.zoom-in figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom-in figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+/*image zoom in hover end*/
+/*image zoom out hover start*/
+.img{
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+figure{
+overflow: hidden;
+margin: 0 10px;
+}
+
+h4{
+	font-family: 'Poppins', sans-serif;
+	color:black;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 15px;
+}
+.img img{
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.zoom-out figure img {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom-out figure:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+
+/*image zoom out hover end*/
+
+
+
+/* slick slider end*/
+/* wow */
+.indianred{
+	background-color:indianred;
+	min-height: 200px;
+	margin-bottom: 10px;
+}
+.medium-orchid{
+   background-color:mediumorchid;
+   min-height: 200px;
+   margin-bottom: 10px;
+}
+.medium-purple{
+   background-color:mediumpurple;
+   min-height: 200px;
+  
+}
+
+
